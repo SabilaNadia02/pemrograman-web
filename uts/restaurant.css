@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    overflow: hidden;
+    border : 1px solid white;
+    background-color: WHITE;
+}
+.logo{
+    float: left;
+    margin: 0 15px;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.menu{
+    float: right;
+}
+ul{
+    margin:0; 
+    padding:0; 
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding:40px 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    margin: 0 15px;
+}
+.heroleft{
+    float: left;
+    width: 70%;
+}
+h2{
+    font-weight: 600;
+    font-size: 5em;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+p{
+    line-height: 1em;
+    margin-bottom: 1px;
+    font-size: 1em;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.heroright{
+    float: right;
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+.footer{ 
+    clear : both; 
+    color: black;
+    text-align: center;
+    border : 1px solid #000000; 
+} 

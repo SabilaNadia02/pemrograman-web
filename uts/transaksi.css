@@ -1,0 +1,55 @@
+.header{
+    overflow: hidden;
+    border : 1px solid white;
+    background-color: WHITE;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin: 0 15px;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.menu{
+    float: right;
+}
+ul{
+    margin:0; 
+    padding:0; 
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding:40px 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.hitung{
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+.form{
+    margin-left: 500px;
+}
+.awal{
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.akhir{
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.tampil{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+}

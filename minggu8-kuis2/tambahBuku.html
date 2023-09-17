@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tambah Data Buku</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="style2.css"/>
+        <link rel="stylesheet" type="text/css" href="style4.css"/>
+    </head>
+    <body>
+        <h1>Tambahkan Data Buku</h1>
+        <form action="tambahBuku.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <th>Kode Buku </th>
+                    <td><input type="text" name="id_buku" size="20"></td>
+                </tr>
+                <tr>
+                    <th>Judul </th>
+                    <td><input type="text" name="judul" size="20"></td>
+                </tr>
+                <tr>
+                    <th>Pengarang </th>
+                    <td><input type="text" name="pengarang" size="20"></td>
+                </tr>
+                <tr>
+                    <th>Penerbit </th>
+                    <td><input type="text" name="penerbit" size="20"></td>
+                </tr>
+                <tr>
+                    <th>Deskripsi </th>
+                    <td>
+                        <textarea name="deskripsi" cols="50" rows="10">Tambahkan Deskripsi Buku</textarea><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" name="send" value="Tambahkan"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

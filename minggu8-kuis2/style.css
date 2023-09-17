@@ -1,0 +1,11 @@
+th, td{
+    text-align: left;
+    padding: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}

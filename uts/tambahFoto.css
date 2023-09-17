@@ -1,0 +1,48 @@
+.header{
+    overflow: hidden;
+    border : 1px solid white;
+    background-color: WHITE;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin: 0 15px;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.menu{
+    float: right;
+}
+ul{
+    margin:0; 
+    padding:0; 
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding:40px 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.tambah{
+    text-align: center;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.awal{
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 500px;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+.akhir{
+    margin-top: 10px;
+}

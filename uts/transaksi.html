@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transaksi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Patrick+Hand&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="transaksi.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="wrapper">
+                <div class="logo">
+                    <h1>Nadia Kulinari</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="restaurant.html">Home</a></li>
+                        <li><a href="transaksi.html">Transaksi</a></li>
+                        <li><a href="tambahFoto.html">Tambah Foto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="hitung">Hitung Transaksi</h1>
+
+        <form class="form" action="transaksi.php" method="post">
+            <label class="awal" >Nama </label>
+            <input class="akhir" type="text" name="nama" placeholder="Nama"><br><br>
+
+            <label class="awal">Status Pembeli </label>
+            <select class="akhir" name="status">
+                <option value="Member">Member</option>
+                <option value="Non-member">Non-Member</option>
+            </select><br><br>
+
+            <label class="awal">Menu </label>
+            <select class="akhir" name="menu">
+                <option value="paket1">Paket 1</option>
+                <option value="paket2">Paket 2</option>
+                <option value="paket3">Paket 3</option>
+            </select><br><br>
+
+            <label class="awal">Jumlah </label>
+            <input class="akhir" type="number" name="jumlah" placeholder="Jumlah"><br><br><br>
+
+            <input type="submit" name="hitung" value="Hitung">
+
+        </form>
+    </body>
+</html>

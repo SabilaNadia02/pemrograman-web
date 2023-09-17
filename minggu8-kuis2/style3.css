@@ -1,0 +1,10 @@
+table{
+    word-spacing: 50px;
+    border-collapse: collapse;
+}
+
+th, td{
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}

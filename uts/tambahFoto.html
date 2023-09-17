@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Patrick+Hand&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tambahFoto.css">
+    <title>Tambahkan Foto</title>
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <h1>Nadia Kulinari</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="restaurant.html">Home</a></li>
+                    <li><a href="transaksi.html">Transaksi</a></li>
+                    <li><a href="tambahFoto.html">Tambah Foto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="tambah">Menambahkan Foto Menu</h1>
+
+    <form class="awal" action="tambahFoto.php" method="post" enctype="multipart/form-data">
+        Foto Menu: 
+        <input class="akhir" type="file" name="uploadedfoto"><br>
+        <input class="akhir" type="submit" value="Upload Foto">
+    </form>
+</body>
+</html>
